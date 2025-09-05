@@ -16,7 +16,6 @@ public class ClasseAutomotores {
 			this.modeloAt = modeloPar;
 			this.tipoAt = tipoPar;
 		}
-		//Getters
 		public String pegarCor() {
 			return corAt;
 		}
@@ -29,7 +28,6 @@ public class ClasseAutomotores {
 		public String pegarTipo() {
 			return tipoAt;
 		}
-		//Setters
 		public void alterarCor (String corPar) {
 			this.corAt = corPar;
 		}
